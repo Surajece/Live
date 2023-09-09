@@ -36,7 +36,7 @@ const[action,setAction]= useState("Login")
 
       <div className="Submit_Container"> 
         <div className={action==="Login"?"Submit gray" :"Submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
-        <div className={action==="Sign Up" ? "Submit gray" :"Submit"} onClick>Login</div>
+        <div className={action==="Sign Up" ? "Submit gray" :"Submit"}>Login</div>
       </div>
     </div>
   );
